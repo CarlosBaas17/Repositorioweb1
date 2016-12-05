@@ -1,0 +1,257 @@
+
+
+div
+{
+	width: 100px;
+	height: 100px;
+	background:green;
+	color: #FFF;
+	font-size: 30PX;
+}
+
+.Encabesado
+{
+position: relative;
+width: 1100px;
+height: 12px;
+background: #008080;
+font-size: 10px;
+top: 10px;
+left: 100px;
+}
+
+
+.Titulo
+{
+	position: relative;
+	width: 1100px;
+	height: 200px;
+	background: #0e5061;
+	font-size: 50PX;
+	bottom: ;
+	left: 100px;
+	top: 10px;
+}
+
+.Titulo1
+{
+	position: absolute;
+	width: 150px;
+	height: 80px;
+	background : #C0C0C0 ;
+	border-color: #F5F5DC ;
+	font-size: 12;
+	bottom: 20px;
+	left: 20px;
+	top: 20px;
+
+}
+
+.Contenido1
+
+{position: absolute;
+width: 250px;
+height: 700px;
+font-size: 20PX;
+background :#0e5061;
+top: 300px;
+left: 110px;
+}
+
+
+.Contenido2
+{position: absolute;
+width: 250px;
+height: 700px;
+background :#0e5061;
+top: 300px;
+left: 370px;
+}
+.Contenido3
+{position: absolute;
+width: 580px;
+height: 700px;
+background :#0e5061;
+top: 300px;
+left: 630px;
+}
+
+.PIE
+{
+	position: fixed;
+width: 1100px;
+height: 20px;
+font-size: 10PX;
+background: #000000;
+bottom: 0px;
+left: 110px;
+}
+
+
+/*Parrafos de del contenido 2*/
+.Parrafo1
+{
+position: absolute;
+width: 115px;
+height: 650px;
+font-size: 15px;
+background:#5da5a2;;
+left: 5px;
+top: 30px ;
+ 
+}
+.Parrafo2
+{
+position: absolute;
+width: 115px;
+height: 650px;
+font-size: 15px;
+background: #5da5a2;;; ;
+left: 127px;
+top: 30px ;
+ 
+}
+
+.Menudeslegable{
+	position: absolute;
+	background: red;
+	width: 1100;
+	height: 85px;
+	top: 100px;
+
+}
+/*Menu desplegable*/
+* {
+	margin:0;
+	padding:0;
+}
+
+/*EN EL VIDEO HAY UN ERROR POR EL CUAL NO SE VISUALIZA EN GOOGLE CHROME,
+EL CÓDIGO A CONTINUACIÓN YA ESTA CORREGIDO*/
+
+header {
+	left: 0;
+	margin-top:10px;
+    width: 100%;
+    overflow: hidden;
+    height: 150px;
+    position: relative;
+    font-size: 20px;
+}
+
+nav {
+    top:-10px;
+    position: absolute;
+    left:0;
+    right:0;
+	margin:20px auto;
+	max-width:1000px;
+	width:90%;
+}
+
+nav ul {
+	list-style:none;
+}
+
+nav > ul {
+font-size: 20px;
+	display:table;
+	/*Quitamos el overflow hidden que estaba aqui*/
+	width:100%;
+	background:#000;
+	position:relative;
+}
+
+nav > ul li {
+	display:table-cell;
+}
+
+/*Sub-menu*/
+nav > ul > li:hover > ul {
+	display:block;
+	height:100%;
+}
+
+nav > ul > li > ul {
+	display:block;
+	position:absolute;
+	background:#000;
+	left:0;
+	right:0;
+	overflow:hidden;
+	height:0%;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
+nav > ul li a {
+	color:#fff;
+	display:block;
+	line-height:20px;
+	padding:20px;
+	position: relative;
+	text-align:center;
+	text-decoration:none;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
+nav > ul > li > ul > li a:hover {
+	background:#5da5a2;
+}
+
+nav > ul > li > a span {
+	background:#174459;
+	display:block;
+	height:100%;
+	width:100%;
+	left:0;
+	position:absolute;
+	top:-55px;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
+nav > ul > li > a span .icon {
+	display:block;
+	line-height:60px;
+}
+
+nav > ul > li > a:hover > span {
+	top:0;
+}
+
+/*Colores*/
+nav ul li a .primero {
+	background:#0e5061;
+}
+
+nav ul li a .segundo {
+	background:#5da5a2;
+}
+
+nav ul li a .tercero {
+	background:#f25724;
+}
+
+nav ul li a .cuarto {
+	background:#174459;
+}
+he
+nav ul li a .quinto{
+	background:#f25724;
+}
+
+nav ul li a 
+{
+	font-size: 18px;
+}
